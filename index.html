@@ -3,63 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toma Coaching | Individuele Coaching voor het Onderwijs</title>
-    <meta name="description" content="Toma Coaching biedt individuele trajecten en beeldcoaching voor leerkrachten, IB-ers en directeuren in het onderwijs.">
+    <title>Toma Coaching | Coaching voor Onderwijs Professionals</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div id="header-placeholder"></div>
 
     <main>
-        <!-- Hero Section -->
+        <!-- Hero met bewegende delen -->
+        <section class="hero">
+            <div class="container split-layout">
+                <div class="reveal">
+                    <span style="color: var(--secondary); font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">Persoonlijke groei in het onderwijs</span>
+                    <h1 style="font-size: 3.5rem; margin: 20px 0; line-height: 1.1;">Word meer <span style="color: var(--primary);">jezelf</span>.</h1>
+                    <p style="font-size: 1.2rem; margin-bottom: 30px;">Ik help leerkrachten, IB-ers en directeuren om in deze hectische tijden weer de regie te pakken over hun eigen werkgeluk.</p>
+                    <div style="display: flex; gap: 20px;">
+                        <a href="contact.html" class="btn btn-primary">Start je traject</a>
+                        <a href="diensten.html" class="btn" style="border: 2px solid var(--secondary);">Bekijk diensten</a>
+                    </div>
+                </div>
+                <div class="image-wrapper reveal">
+                    <img src="assets/images/persoonsfoto.webp" alt="Henriëtte Toma">
+                </div>
+            </div>
+        </section>
+
+        <!-- Diensten Quick Grid -->
         <section class="section-padding">
             <div class="container">
-                <div class="split-layout">
-                    <div>
-                        <h1>Word wie je kan zijn</h1>
-                        <p>Iedereen verdient op zijn tijd een coachtraject. In deze hectische tijden is individuele coaching als een APK-keuring voor jezelf: een grondig onderzoek om dichter bij jezelf te komen.</p>
-                        <a href="contact.html" class="btn-submit" style="display:inline-block; text-decoration:none; margin-top:20px;">Maak een afspraak</a>
+                <div style="text-align: center; max-width: 700px; margin: 0 auto 60px;">
+                    <h2 class="reveal">Hoe kan ik jou ondersteunen?</h2>
+                    <p class="reveal">Of het nu gaat om een individueel traject of een training op maat, we zoeken altijd de meest doelgerichte werkwijze.</p>
+                </div>
+                
+                <div class="card-grid">
+                    <div class="card reveal">
+                        <h3>Individuele Coaching</h3>
+                        <p>Een "APK-keuring" van jezelf. Voor onderwijsprofessionals die willen reflecteren op werkdruk en passie.</p>
+                        <a href="diensten.html#individueel" style="color: var(--primary); font-weight: bold;">Lees meer &rarr;</a>
                     </div>
-                    <div>
-                        <img src="assets/images/persoonsfoto.webp" alt="Henriëtte Toma" class="img-responsive" loading="lazy">
+                    <div class="card reveal" style="transition-delay: 0.1s;">
+                        <h3>Beeldcoaching</h3>
+                        <p>Kijk met andere ogen naar je eigen lessen. Focus op wat er goed gaat en versterk je interactie.</p>
+                        <a href="diensten.html#beeld" style="color: var(--primary); font-weight: bold;">Lees meer &rarr;</a>
+                    </div>
+                    <div class="card reveal" style="transition-delay: 0.2s;">
+                        <h3>Trainingen</h3>
+                        <p>Maatwerk sessies over o.a. Human Dynamics, gedragsproblemen en gesprekken met ouders.</p>
+                        <a href="diensten.html#trainingen" style="color: var(--primary); font-weight: bold;">Lees meer &rarr;</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Keurmerken Bar -->
-        <div class="seal-bar">
-            <img src="assets/images/crkbologo.png" alt="CRKBO Geregistreerd">
-            <img src="assets/images/beeldcoaching.png" alt="Beeldcoaching">
-            <img src="assets/images/professioneelbegeleiden.png" alt="Professioneel Begeleiden">
-        </div>
-
-        <!-- Quote -->
-        <div class="container">
-            <blockquote class="quote-block">
-                “De mens is net een foto: Als hij zich kan ontwikkelen, wordt hij positief.”
-            </blockquote>
-        </div>
-
-        <!-- Coaching Korte Intro -->
-        <section class="section-padding" style="background: var(--bg-light);">
-            <div class="container">
-                <h2 style="text-align:center; margin-bottom:40px;">Onze Expertise</h2>
-                <div class="footer-grid"> <!-- Hergebruik grid voor 3 kolommen -->
-                    <div style="background:white; padding:30px; border-radius:8px; border-bottom:4px solid var(--primary-color);">
-                        <h3>Individuele Coaching</h3>
-                        <p>Voor leerkrachten, teamleiders en directeuren. Focus op werkdruk, stress en persoonlijke groei.</p>
-                    </div>
-                    <div style="background:white; padding:30px; border-radius:8px; border-bottom:4px solid var(--secondary-color);">
-                        <h3>Beeldcoaching</h3>
-                        <p>Snel kwaliteitsverbetering door beelden uit de klas te analyseren. Focus op wat er al goed gaat.</p>
-                    </div>
-                    <div style="background:white; padding:30px; border-radius:8px; border-bottom:4px solid var(--primary-color);">
-                        <h3>Trainingen</h3>
-                        <p>Maatwerk trainingen over o.a. Human Dynamics, time-management en communicatie met ouders.</p>
-                    </div>
-                </div>
+        <!-- Quote Sectie -->
+        <section class="section-padding" style="background: var(--primary); color: white; text-align: center;">
+            <div class="container reveal">
+                <h2 style="font-style: italic; font-size: 2.5rem; font-weight: 300;">"Ik wil mezelf niet veranderen, ik wil meer mezelf zijn"</h2>
             </div>
         </section>
     </main>

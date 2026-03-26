@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching & Trainingen | Toma Coaching Maassluis</title>
+    <meta name="description" content="Ontdek onze diensten: individuele coaching, beeldcoaching, intervisie en maatwerk trainingen voor het onderwijs.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        .price-tag {
+            display: inline-block;
+            background: var(--bg-light);
+            padding: 5px 15px;
+            border-radius: 5px;
+            border-left: 4px solid var(--primary);
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .service-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+        .service-list li {
+            padding-left: 30px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .service-list li::before {
+            content: '🍃';
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+        }
+        .anchor-nav {
+            background: var(--glass);
+            padding: 20px 0;
+            position: sticky;
+            top: 80px;
+            z-index: 900;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        @media (max-width: 768px) { .anchor-nav { display: none; } }
+    </style>
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Intro Header -->
+        <section class="section-padding" style="background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('assets/images/logo.webp') center/contain no-repeat;">
+            <div class="container" style="text-align: center;">
+                <h1 class="reveal">Mijn Werkwijze & Aanbod</h1>
+                <p class="reveal" style="max-width: 800px; margin: 20px auto;">Ik werk op een zeer persoonlijke wijze en kan mensen goed aanvoelen. Of het nu gaat om coaching of training: jij bent eigenaar van je leerproces.</p>
+            </div>
+        </section>
+
+        <!-- Snelle Navigatie -->
+        <div class="anchor-nav reveal">
+            <a href="#individueel" class="btn" style="font-size: 0.9rem; border: 1px solid var(--secondary);">Individuele Coaching</a>
+            <a href="#beeld" class="btn" style="font-size: 0.9rem; border: 1px solid var(--secondary);">Beeldcoaching</a>
+            <a href="#trainingen" class="btn" style="font-size: 0.9rem; border: 1px solid var(--secondary);">Trainingen</a>
+            <a href="#intervisie" class="btn" style="font-size: 0.9rem; border: 1px solid var(--secondary);">Intervisie</a>
+        </div>
+
+        <!-- Sectie 1: Individuele Coaching -->
+        <section id="individueel" class="section-padding">
+            <div class="container split-layout">
+                <div class="reveal">
+                    <span style="color: var(--primary); font-weight: bold;">VOOR ONDERWIJSPROFESSIONALS</span>
+                    <h2>Individuele Coaching</h2>
+                    <p>Iedereen verdient op zijn tijd een coachtraject. In deze hectische tijden fungeert coaching als een <strong>APK-keuring van jezelf</strong>. Een grondig onderzoek en een doelgerichte weg om dichter bij jezelf te komen.</p>
+                    
+                    <div class="price-tag">Kosten: € 90,- per uur</div>
+                    
+                    <ul class="service-list">
+                        <li>Leerkrachten en docenten</li>
+                        <li>Intern begeleiders / Remedial teachers</li>
+                        <li>Locatieleiders en teamleiders</li>
+                        <li>(Adjunct) directeuren</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Plan een intake</a>
+                </div>
+                <div class="image-wrapper reveal">
+                    <!-- Hier zou een sfeerfoto van een gesprek kunnen komen -->
+                    <div style="background: var(--bg-light); height: 400px; border-radius: 20px; display: flex; align-items: center; justify-content: center; border: 2px dashed var(--secondary);">
+                         <p style="color: var(--secondary);">[Sfeerfoto Gesprek]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sectie 2: Beeldcoaching -->
+        <section id="beeld" class="section-padding" style="background: var(--bg-light);">
+            <div class="container split-layout reverse">
+                <div class="reveal">
+                    <h2>Beeldcoaching</h2>
+                    <p>Beeldcoaching is bij uitstek geschikt om snel een kwaliteitsverbetering te bewerkstelligen. Door jezelf terug te zien op beelden, worden veranderingen sneller een vast patroon.</p>
+                    
+                    <div class="price-tag">Kosten: € 90,- per uur</div>
+                    
+                    <p><strong>Hoe werkt het?</strong> Op basis van jouw coachvraag (interactie, didactiek of klassenmanagement) kom ik filmen in de klas. We analyseren samen de beelden met de focus op wat er al goed gaat.</p>
+                    
+                    <ul class="service-list">
+                        <li>Individuele trajecten voor leerkrachten</li>
+                        <li>Inzetbaar bij intervisiebijeenkomsten</li>
+                        <li>Gemiddeld 3 filmmomenten en nagesprekken</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Meer over beeldcoaching</a>
+                </div>
+                <div class="image-wrapper reveal">
+                    <img src="assets/images/beeldcoaching.png" alt="Beeldcoaching Logo" style="background: white; padding: 40px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sectie 3: Trainingen op maat -->
+        <section id="trainingen" class="section-padding">
+            <div class="container split-layout">
+                <div class="reveal">
+                    <h2>Trainingen op maat</h2>
+                    <p>Mijn expertise ligt op het gebied van interpersoonlijke en pedagogische competenties. We starten altijd met een intake om de beginsituatie en specifieke doelen scherp te krijgen.</p>
+                    
+                    <div class="price-tag">Kosten: € 125,- per uur</div>
+
+                    <ul class="service-list">
+                        <li>Basiscursus coachend begeleiden</li>
+                        <li>Omgaan en gesprekken met ouders</li>
+                        <li>Omgaan met gedragsproblemen</li>
+                        <li>Time-management in het onderwijs</li>
+                        <li>Training Human Dynamics</li>
+                    </ul>
+                </div>
+                <div class="reveal" style="background: var(--white); padding: 30px; border-radius: 20px; box-shadow: var(--shadow);">
+                    <h4 style="color: var(--primary); margin-bottom: 15px;">Waarom een training?</h4>
+                    <p style="font-size: 0.95rem;">Een training is de snelste manier om kennis en vaardigheden op te doen. We oefenen in een veilige situatie en ik zorg dat de groep eigenaar blijft van het leerproces.</p>
+                    <blockquote style="margin-top: 20px; font-style: italic; border-left: 3px solid var(--secondary); padding-left: 15px;">
+                        "Heb je niets meer te leren? Leer dan iets af!"
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sectie 4: Intervisie -->
+        <section id="intervisie" class="section-padding" style="border-top: 1px solid #eee;">
+            <div class="container">
+                <div class="reveal" style="text-align: center; margin-bottom: 50px;">
+                    <h2>Intervisie</h2>
+                    <p style="max-width: 700px; margin: 0 auto;">Zorgt voor een pas op de plaats. Door de vertrouwelijke setting leren groepsleden van hun eigen gedrag en oefenen ze met nieuw gedrag.</p>
+                    <div class="price-tag">Kosten: € 125,- per uur (of offerte op maat)</div>
+                </div>
+
+                <div class="card-grid reveal">
+                    <div class="card">
+                        <h4>Voor wie?</h4>
+                        <p>Beginnende professionals, leerkrachten/docenten, middenkader of directeuren.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Beelden</h4>
+                        <p>Intervisie kan ook met beelden: teamleden brengen casussen in die we gezamenlijk analyseren.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Werkwijze</h4>
+                        <p>Ik zorg als facilitator voor de juiste werkvormen en een veilige, constructieve sfeer.</p>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 50px;" class="reveal">
+                    <a href="contact.html" class="btn btn-primary">Vraag een offerte aan</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
