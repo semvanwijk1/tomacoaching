@@ -1,54 +1,27 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact | Toma Coaching</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="header-placeholder"></div>
-
-    <main class="container" style="padding: 80px 0;">
-        <h1 class="reveal" style="text-align: center; margin-bottom: 50px;">Laten we <span class="accent">kennismaken</span></h1>
-
-        <div class="contact-grid">
-            <!-- LINKS KOLOM -->
-            <div class="contact-left">
-                <!-- Linksboven: Info -->
-                <div class="contact-info-block reveal">
-                    <h3>Contactgegevens</h3>
-                    <p style="margin-top: 15px;">Vragen of direct een intake plannen? Ik ben uitstekend bereikbaar via onderstaande gegevens.</p>
-                    <div style="margin-top: 20px;">
-                        <p><strong>Telefoon:</strong> 06 222 700 92</p>
-                        <p><strong>E-mail:</strong> info@tomacoaching.nl</p>
-                    </div>
-                </div>
-
-                <!-- Linksonder: Map -->
-                <div class="map-frame reveal" style="transition-delay: 0.1s;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.64687254558!2d4.254130076891238!3d51.92138407191147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c44933a38a9b67%3A0x867332f146473ba!2sPaulus%20Potterplein%2025!5e0!3m2!1snl!2snl!4v1710000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-
-            <!-- RECHTER KOLOM: Formulier -->
-            <div class="contact-form-block reveal" style="transition-delay: 0.2s;">
-                <h3>Bericht sturen</h3>
-                <form action="https://formspree.io/f/jouw-id" method="POST" style="margin-top: 25px;">
-                    <input type="text" name="naam" placeholder="Jouw naam" required>
-                    <input type="email" name="email" placeholder="E-mailadres" required>
-                    <select name="onderwerp">
-                        <option>Individuele Coaching</option>
-                        <option>Beeldcoaching</option>
-                        <option>Training</option>
-                    </select>
-                    <textarea name="bericht" rows="6" placeholder="Je vraag of bericht" required></textarea>
-                    <button type="submit" style="background: var(--primary); color: white; border: none; padding: 15px; width: 100%; border-radius: 12px; font-weight: bold; cursor: pointer;">Verstuur bericht</button>
-                </form>
-            </div>
+<div class="contact-form-card reveal">
+    <form action="https://formspree.io/f/jouw-id" method="POST">
+        <div class="form-group">
+            <label>Volledige Naam</label>
+            <input type="text" name="naam" placeholder="bijv. Henriëtte Toma" required>
         </div>
-    </main>
-
-    <div id="footer-placeholder"></div>
-    <script src="js/script.js"></script>
-</body>
-</html>
+        <div class="form-group">
+            <label>E-mailadres</label>
+            <input type="email" name="email" placeholder="naam@domein.nl" required>
+        </div>
+        <div class="form-group">
+            <label>Waar gaat je vraag over?</label>
+            <select name="onderwerp">
+                <option value="Individuele Coaching">Individuele Coaching</option>
+                <option value="Beeldcoaching">Beeldcoaching</option>
+                <option value="Training op maat">Training op maat</option>
+                <option value="Intervisie">Intervisie</option>
+                <option value="Overig">Overig (vrije vraag)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Jouw bericht</label>
+            <textarea name="bericht" rows="6" placeholder="Vertel me kort wat je coachvraag is..." required></textarea>
+        </div>
+        <button type="submit" class="btn-modern" style="width: 100%;">Verstuur aanvraag</button>
+    </form>
+</div>
