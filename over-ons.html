@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over ons | Toma Coaching - Henriëtte Toma</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Modern Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Specifieke extra styling voor deze pagina */
+        .intro-lead { font-size: 1.25rem; color: var(--primary); font-weight: 600; margin-bottom: 20px; }
+        .methodology-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 60px; }
+        .method-item { background: #fdfdfd; padding: 40px; border-radius: 20px; box-shadow: var(--shadow); border-bottom: 4px solid var(--secondary); transition: var(--transition); }
+        .method-item:hover { transform: translateY(-5px); border-bottom-color: var(--primary); }
+        .quote-hero { background: var(--bg-soft); padding: 100px 0; text-align: center; position: relative; overflow: hidden; }
+        .check-list { list-style: none; margin-top: 30px; }
+        .check-list li { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px; }
+        .check-list .dot { color: var(--primary); font-weight: bold; font-size: 1.2rem; }
+        
+        @media (max-width: 992px) {
+            .methodology-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Placeholder voor de Header -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Hero Sectie: Wie is Henriëtte -->
+        <section class="hero">
+            <div class="container split-content">
+                <div class="reveal">
+                    <span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Aangenaam, ik ben Henriëtte</span>
+                    <h1 style="margin-top: 10px;">Gedreven door <span class="accent">menselijke</span> ontwikkeling.</h1>
+                    <p class="intro-lead">“Hoe kan ik een zinvolle bijdrage leveren aan jouw ontwikkeling?”</p>
+                    <p>
+                        Ik heb altijd een sterke interesse gehad in mensen en realiseerde me al snel dat mijn inspiratie ligt bij de mensen zelf. 
+                        Vooral de ontwikkeling van de mens heeft mijn focus en dat is niet zo gek: ik werk tenslotte al meer dan vijfentwintig jaar met veel plezier in het onderwijs.
+                    </p>
+                    <p style="margin-top: 20px;">
+                        Sinds mei 2022 ben ik gediplomeerd beeldcoach. Het werken met beelden is een effectieve manier om de kwaliteit van het onderwijs te verbeteren, waarbij de focus altijd ligt op wat er al goed gaat.
+                    </p>
+                </div>
+                <div class="reveal" style="text-align: right;">
+                    <img src="assets/images/persoonsfoto.webp" alt="Henriëtte Toma" class="photo-small">
+                </div>
+            </div>
+        </section>
+
+        <!-- Inspiratie Sectie -->
+        <section style="background: var(--bg-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="reveal" style="max-width: 800px; margin: 0 auto; text-align: center; margin-bottom: 50px;">
+                    <h2>Mijn inspiratiebronnen</h2>
+                    <p>Ik geloof dat iedereen een unieke manier van werken en denken heeft. Om dit proces te ondersteunen, maak ik gebruik van twee krachtige theorieën:</p>
+                </div>
+
+                <div class="methodology-grid">
+                    <div class="method-item reveal">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">Human Dynamics</h3>
+                        <p>Een prettige manier om met de verschillen tussen mensen om te gaan. Het helpt begrijpen of iemand direct aan de slag wil gaan, of juist eerst tijd nodig heeft om alles te overdenken. Dit inzicht zorgt voor rust en begrip in je eigen handelen.</p>
+                    </div>
+                    <div class="method-item reveal" style="transition-delay: 0.1s;">
+                        <h3 style="color: var(--secondary); margin-bottom: 15px;">NLP Technieken</h3>
+                        <p>Neurolinguïstisch Programmeren stelt mij in staat om heel snel te zien wie je <strong>kan</strong> zijn, zonder langdurig stil te hoeven staan bij wat je nu tegenhoudt. We kijken direct naar de toekomst en jouw mogelijkheden.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Werkwijze Sectie -->
+        <section class="section-padding">
+            <div class="container split-content">
+                <div class="reveal">
+                    <h2>Mijn werkwijze</h2>
+                    <p>
+                        Ik werk op een zeer persoonlijke wijze en kan mensen goed aanvoelen. Ik kan goed luisteren en ben praktisch ingesteld. 
+                        Ik doe nooit ergens langer over dan nodig is en zoek altijd de meest doelgerichte werkwijze om jouw wensen te vervullen.
+                    </p>
+                    <ul class="check-list">
+                        <li><span class="dot">🍃</span> <strong>Veiligheid:</strong> Ik zorg voor een vertrouwd gevoel waarin je alles durft te bespreken.</li>
+                        <li><span class="dot">🍃</span> <strong>De Spiegel:</strong> Ik houd je een spiegel voor, wat soms confronterend kan zijn, maar altijd met humor.</li>
+                        <li><span class="dot">🍃</span> <strong>Eigenaarschap:</strong> Jij bent de eigenaar van je proces. Ik zorg dat jij invloed hebt op het programma.</li>
+                    </ul>
+                </div>
+                <div class="reveal" style="text-align: right;">
+                    <!-- Een tweede sfeervolle afbeelding of keurmerk-logo -->
+                    <img src="assets/images/professioneelbegeleiden.png" alt="Keurmerk" style="max-width: 250px; opacity: 0.8;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Sectie -->
+        <section class="quote-hero reveal">
+            <div class="container">
+                <h2 style="font-style: italic; font-weight: 300; font-size: 2.2rem; color: var(--primary);">
+                    “De mens is net een foto: Als hij zich kan ontwikkelen, wordt hij positief.”
+                </h2>
+                <p style="margin-top: 20px; font-weight: bold; color: var(--text-main);">- Henriëtte Toma</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section style="padding: 100px 0; text-align: center;">
+            <div class="container reveal">
+                <h2>Zullen we samen aan de slag?</h2>
+                <p style="margin: 20px 0 40px;">Een traject begint altijd met een vrijblijvend intakegesprek om te kijken of er een klik is.</p>
+                <a href="contact.html" style="background: var(--primary); color: white; padding: 18px 45px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; transition: var(--transition);">Neem contact op</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Placeholder voor de Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
