@@ -166,6 +166,15 @@ p  { color: var(--text-mid); }
 .nav-menu a:hover::after,
 .nav-menu a.active::after { width: 100%; }
 
+/* Contact knop blijft altijd wit in de header, ook als active */
+.nav-menu a.btn-primary,
+.nav-menu a.btn-primary:hover,
+.nav-menu a.btn-primary.active {
+  color: var(--white) !important;
+}
+.nav-menu a.btn-primary::after,
+.nav-menu a.btn-primary.active::after { display: none; }
+
 /* Hamburger */
 .menu-toggle {
   display: none;
